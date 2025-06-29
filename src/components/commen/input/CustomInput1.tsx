@@ -6,6 +6,7 @@ type Props = {
 }
 
 const CustomInput1 = ({ onSubmit, text }: Props) => {
+    
     return (
         <Formik initialValues={{in:""}} onSubmit={e=>onSubmit(e.in)}>
             <Form className='relative'>
