@@ -1,8 +1,7 @@
+import Sign from "../../components/sign/Sign"
 
 const SignPage = () => {
-  return (
-    <div>SignPage</div>
-  )
+  return <Sign/>
 }
 
 export default SignPage
